@@ -2,6 +2,11 @@
 #### About the Project
 In this project I used R to do Analysis of **Red Wine Data** which contains 1,599 red wines with 11 variables on the chemical properties of the wine. My focus is to see how each chemical component influences the quality of wine (0 'very bad' to 10 'very excellent'). I made a model to predict the quality of Red Wine. This dataset is public available for research. The details are described in [Cortez et al., 2009].
 
+#### Process I have followed for analysis of RedWineQuality
+
+I visualize each variables to see how they are distributed, using  ggplot2, RColorBrewer libraries. Saw relation between quality and other variables because my target variable was quality, and wanted to see how good the other variables are predictor of quality of wine. I did transformation to see if I can increase correlation coefficient between them. I used GGally library to see correlation. Used caret and MASS packages to make data partition for model building. Used stepwise variable selection method to choose best predictor of wine quality. Found some unusual way of rating, which I have explained on the end of this document.
+
+
 **R Libraries I Used**
 
 - ggplot2
