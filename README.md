@@ -23,7 +23,7 @@ I visualize each variables to see how they are distributed, using  ggplot2, RCol
 - wineQualityReds.csv
 
 
-**_ The .ipynb file contains all the analysis process and code I used_**
+_**The .ipynb file contains all the analysis process and code I used**_
 
 
 **_What I found from the Analysis of this dataset?_**
