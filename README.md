@@ -23,6 +23,9 @@ I visualize each variables to see how they are distributed, using  ggplot2, RCol
 - wineQualityReds.csv
 
 
+**_ The .ipynb file contains all the analysis process and code I used_**
+
+
 **_What I found from the Analysis of this dataset?_**
 
  - For the whole data set most of the people gave rating 5 and 6.
