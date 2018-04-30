@@ -20,13 +20,22 @@ In this project I used R to do Analysis of **Red Wine Data** which contains 1,59
 
 **_What I found from the Analysis of this dataset?_**
 
-For the whole data set most of the people gave rating 5 and 6. Nobody gave rating 0, 1, 2, 9, 10. This might be because most of the people randomly choose the rating 5 and 6. And surprisingly no body rated 9 and 10 means the wine quality might not be good in reality.
-I first thought that acidity has predictive capability. As quality increases with increase value of citric acid and decreases with increased value of volatile acidity.
-For residual sugar nobody gave rating 3 and 8 for the value greater than 6.8. May be only one people gave rating 4 for residual sugar value greater than 6.8. Most of the rating 5 falls below the alcohol value 11. Most of the rating 7 lies above the alcohol value 11. Rating 4, 6 are randomly distributed.
+For the whole data set most of the people gave rating 5 and 6.
+Nobody gave rating 0, 1, 2, 9, 10. This might be because most of the people randomly choose the rating 5 and 6.
+And surprisingly no body rated 9 and 10 means the wine quality might not be good in reality.
+I first thought that acidity has predictive capability.
+As quality increases with increase value of citric acid and decreases with increased value of volatile acidity.
+For residual sugar nobody gave rating 3 and 8 for the value greater than 6.8.
+May be only one people gave rating 4 for residual sugar value greater than 6.8.
+Most of the rating 5 falls below the alcohol value 11.
+Most of the rating 7 lies above the alcohol value 11.
+Rating 4, 6 are randomly distributed.
 The interesting fact is for the total.sulfur.dioxide value from 99 to 153 people gave rating 5 except of some outliers.
 People gave high rating for low value of pH.
 No people rated 8 for having chloride value greater than 0.121.
-For sulphate value greater than 0.94 people did not give rating 3. May be only one people gave rating 8. Most of the people gave rating 4.
+For sulphate value greater than 0.94 people did not give rating 3.
+May be only one people gave rating 8. Most of the people gave rating 4.
 Density showed predictor for quality as it has trend. For higher value of density quality is low and for lower value of density, quality is high.
 The linear model gave me seven final variables (volatile.acidity, log10(chlorides), free.sulfur.dioxide, total.sulfur.dioxide, pH, log10(sulphates), alcohol) for prediction of quality of wine.
-But it is not the final conclusion. There might be other variables(which are not present in our data) we need to consider for wine quality prediction.
+But it is not the final conclusion.
+There might be other variables(which are not present in our data) we need to consider for wine quality prediction.
