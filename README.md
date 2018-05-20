@@ -1,5 +1,6 @@
 
 #### About the Project
+
 In this project I used R to do Analysis of **Red Wine Data** which contains 1,599 red wines with 11 variables on the chemical properties of the wine. My focus is to see how each chemical component influences the quality of wine (0 'very bad' to 10 'very excellent'). I made a model to predict the quality of Red Wine. This dataset is public available for research. The details are described in [Cortez et al., 2009].
 
 #### Process I have followed for analysis of RedWineQuality
@@ -44,6 +45,6 @@ _**The .ipynb file contains all the analysis process and code I used**_
  - For sulphate value greater than 0.94 people did not give rating 3.
  - May be only one people gave rating 8. Most of the people gave rating 4.
  - Density showed predictor for quality as it has trend. For higher value of density, quality is low and for lower value of density, quality is high.
- - The linear model gave me seven final variables (volatile.acidity, log10(chlorides), free.sulfur.dioxide, total.sulfur.dioxide, pH, log10(sulphates), alcohol) for prediction of quality of wine.
+ - The linear model gave me seven final variables (volatile.acidity, log10(chlorides), free.sulfur.dioxide, total.sulfur.dioxide, pH, log10(sulphates), alcohol) for prediction of quality of wine..
  - But it is not the final conclusion.
  - There might be other variables(which are not present in our data) we need to consider for wine quality prediction.
